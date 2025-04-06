@@ -2659,7 +2659,7 @@
 	(footprint "Crystal:Crystal_SMD_1210-4Pin_1.2x1.0mm"
 		(layer "F.Cu")
 		(uuid "4a441efa-f09c-46b5-8951-5d3be68e346b")
-		(at 124.165 77.09)
+		(at 87.835 85.09)
 		(descr "SMD Crystal SERIES SMD1210/4 https://ecsxtal.com/store/pdf/ECX-1048.pdf, 1.2x1.0mm^2 package")
 		(tags "SMT")
 		(property "Reference" "Y1"
