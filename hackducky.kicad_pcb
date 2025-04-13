@@ -2806,7 +2806,7 @@
 	(footprint "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal"
 		(layer "F.Cu")
 		(uuid "356114b3-0114-462a-b17b-e287216eed5c")
-		(at 151.85 43.14)
+		(at 115.5 38.5)
 		(descr "USB type A Plug, Horizontal, http://cnctech.us/pdfs/1001-011-01101.pdf")
 		(tags "USB-A")
 		(property "Reference" "J1"
@@ -5500,7 +5500,7 @@
 	(footprint "Connector_USB:USB_C_Plug_Molex_105444"
 		(layer "F.Cu")
 		(uuid "52b36d2d-fe20-4c72-aaa8-fda9b3f45b8f")
-		(at 170.725 76.76)
+		(at 167.5 78.96)
 		(descr "Universal Serial Bus (USB) Shielded I/O Plug, Type C, Right Angle, Surface Mount, http://www.molex.com/pdm_docs/sd/1054440001_sd.pdf")
 		(tags "USB Type-C Plug Edge Mount")
 		(property "Reference" "P2"
@@ -10261,7 +10261,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-666"
 		(layer "F.Cu")
 		(uuid "b8649fdd-2c5f-4678-a650-8cb9dbbdbeaa")
-		(at 163.11 73.4)
+		(at 163.6 73.4)
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "U5"
@@ -10737,13 +10737,13 @@
 	(footprint "Package_TO_SOT_SMD:SOT-666"
 		(layer "F.Cu")
 		(uuid "bc1989ab-3917-41bc-9b23-170c2951c471")
-		(at 163.11 69.945)
+		(at 97.5375 38.4 90)
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "U3"
-			(at 0 -2 0)
+			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "e30d923c-591f-46d9-a7b0-c02829f6882d")
+			(uuid "4c96ffc2-463d-454b-8eb2-c8375cf57fd4")
 			(effects
 				(font
 					(size 1 1)
@@ -10752,9 +10752,9 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 0 1.75 180)
+			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "bad580e5-b979-44fb-8d7e-1e484827a74b")
+			(uuid "92c1d9be-c0ec-4ef8-bbb8-72f5812b2be7")
 			(effects
 				(font
 					(size 1 1)
@@ -10763,11 +10763,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d82c16b7-9d06-47c0-aaa2-f0c7bd380a2f")
+			(uuid "652607d3-a6b4-4145-9bf7-627625a63f9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,11 +10776,11 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "efa51188-4d19-4874-8e4c-79528f5abd47")
+			(uuid "4bc301b9-972e-41ad-aaa7-ac76f19030e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,16 +10827,6 @@
 		)
 		(fp_line
 			(start -1.5 -1.1)
-			(end -1.5 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "78d644a9-b81f-4b40-a008-ff590b3ec2d1")
-		)
-		(fp_line
-			(start -1.5 -1.1)
 			(end 1.5 -1.1)
 			(stroke
 				(width 0.05)
@@ -10846,14 +10836,14 @@
 			(uuid "48585c62-e3aa-4210-aeef-a4f41533560c")
 		)
 		(fp_line
-			(start -1.5 1.1)
-			(end 1.5 1.1)
+			(start -1.5 -1.1)
+			(end -1.5 1.1)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dcf58e5a-980a-4a5b-a7cd-1f21582c6c1e")
+			(uuid "78d644a9-b81f-4b40-a008-ff590b3ec2d1")
 		)
 		(fp_line
 			(start 1.5 1.1)
@@ -10866,24 +10856,14 @@
 			(uuid "e3b7513c-cd9c-4830-8bd5-ae96f5f5d89d")
 		)
 		(fp_line
-			(start -0.65 -0.53)
-			(end -0.65 0.85)
+			(start -1.5 1.1)
+			(end 1.5 1.1)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "4c389dbd-1397-4667-9fd1-c0417a3c58bb")
-		)
-		(fp_line
-			(start -0.65 -0.53)
-			(end -0.33 -0.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "02956fdf-65eb-401c-be9d-77331e8ae315")
+			(layer "F.CrtYd")
+			(uuid "dcf58e5a-980a-4a5b-a7cd-1f21582c6c1e")
 		)
 		(fp_line
 			(start 0.65 -0.85)
@@ -10916,6 +10896,26 @@
 			(uuid "55c7eba5-b7d2-4e08-b18c-0f73d58656b8")
 		)
 		(fp_line
+			(start -0.65 -0.53)
+			(end -0.33 -0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "02956fdf-65eb-401c-be9d-77331e8ae315")
+		)
+		(fp_line
+			(start -0.65 -0.53)
+			(end -0.65 0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4c389dbd-1397-4667-9fd1-c0417a3c58bb")
+		)
+		(fp_line
 			(start 0.65 0.85)
 			(end -0.65 0.85)
 			(stroke
@@ -10926,7 +10926,7 @@
 			(uuid "5d7537e8-dfee-47e3-8c00-f1e056bd77b0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "23d85fc6-7c3e-44bf-b967-b114c899374c")
 			(effects
@@ -10937,7 +10937,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.85 -0.5375)
+			(at -0.85 -0.5375 90)
 			(size 0.5 0.375)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10947,7 +10947,7 @@
 			(uuid "7a87fa24-2a46-4403-8894-908ef38d7bb9")
 		)
 		(pad "2" smd roundrect
-			(at -0.925 0)
+			(at -0.925 0 90)
 			(size 0.65 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10957,7 +10957,7 @@
 			(uuid "df18d5f0-cd93-486b-bb28-92ac51e77ea9")
 		)
 		(pad "3" smd roundrect
-			(at -0.85 0.5375)
+			(at -0.85 0.5375 90)
 			(size 0.5 0.375)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10967,7 +10967,7 @@
 			(uuid "e6ac739a-387c-4977-a884-0d79cfff6412")
 		)
 		(pad "4" smd roundrect
-			(at 0.85 0.5375)
+			(at 0.85 0.5375 90)
 			(size 0.5 0.375)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10977,7 +10977,7 @@
 			(uuid "dbe51ce0-7114-480b-87a8-6b8b078ae15e")
 		)
 		(pad "5" smd roundrect
-			(at 0.925 0)
+			(at 0.925 0 90)
 			(size 0.65 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10987,7 +10987,7 @@
 			(uuid "68c36b57-dccc-4376-a553-4f37a6ba927f")
 		)
 		(pad "6" smd roundrect
-			(at 0.85 -0.5375)
+			(at 0.85 -0.5375 90)
 			(size 0.5 0.375)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
