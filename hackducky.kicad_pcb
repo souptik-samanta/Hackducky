@@ -359,7 +359,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "0f531209-f417-4931-ae8b-709f88bf3709")
-		(at 82.5 84.75 90)
+		(at 82.45 86.6 90)
 		(property "Reference" "G***"
 			(at 0 0 90)
 			(layer "F.SilkS")
@@ -13542,7 +13542,7 @@
 		(uuid "f39cbda3-d01f-48a9-b7da-536c3923cc86")
 	)
 	(gr_text "Souptik.me & Aarav J."
-		(at 90.5 93 -90)
+		(at 93.68 92.44 -90)
 		(layer "F.SilkS")
 		(uuid "ee1df69e-ed70-4871-ae30-8eaa80963e96")
 		(effects
