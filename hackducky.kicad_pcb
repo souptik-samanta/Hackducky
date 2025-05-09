@@ -4890,7 +4890,7 @@
 			(uuid "68c3c7de-bf11-4d32-b2b2-6f329ced6f73")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.wrl"
+		(model "${KIPRJMOD}/models/SK6812-EC20.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4898,7 +4898,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -4909,7 +4909,7 @@
 		(descr "RGB addressable LED, 0.1W, 1.5mm x 1.5mm, 0.65m height, orientation mark at GND, http://ledstrip-china.com/productshow.asp?id=322")
 		(tags "LED RGB NeoPixel")
 		(property "Reference" "D1"
-			(at -0.105 -0.07 -90)
+			(at -0.105 -0.07 90)
 			(layer "B.SilkS")
 			(uuid "0e1115bb-5670-42ca-91ee-8286409fc326")
 			(effects
@@ -5148,7 +5148,7 @@
 			(uuid "ad70fa44-d4f1-4b79-936a-507700c50783")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.wrl"
+		(model "${KIPRJMOD}/models/SK6812-EC20.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5156,7 +5156,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -22070,7 +22070,7 @@
 			(xy 91.79948 73.200483)
 		)
 		(initial_side "right")
-		(last_diff_pair_gap 0.250001)
+		(last_diff_pair_gap 0.25)
 		(last_netname "D-")
 		(last_status "tuned")
 		(last_track_width 0.2)
