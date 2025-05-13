@@ -46,11 +46,10 @@ HackDucky is a compact, powerful RP2040-based USB device inspired by the concept
 * Open-source hardware and firmware philosophy
 
 ## 📸 Preview
-img/sm_black_top (1).png
-</br>
-img/sm_black_top (1).png
-[bot](img/image.png)
-[alt text](img/image-1.png)
+![alt text](image-3.png)
+![alt text](image-2.png)
+![alt text](image-1.png)
+![alt text](image.png)
 ## 🔐 Disclaimer
 
 This device is for **educational and ethical hacking purposes only**. Use responsibly. The creators is not responsible for any misuse.
