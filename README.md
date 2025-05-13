@@ -1,4 +1,3 @@
----
 
 # 🦆 HackDucky
 
@@ -66,5 +65,4 @@ GitHub: [@souptik-samanta](https://github.com/souptik-samanta) & [Arav Jhamb](ht
 Instagram: [@souptik.me](https://instagram.com/souptik.me) & [Arav Jhamb](https://github.com/The-UnknownHacker)
 Hack Clubber & Hardware Hacker 💻🔌             Hack Clubber & Ethical Hacker 💻🔌
  
----
 
