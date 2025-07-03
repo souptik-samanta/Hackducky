@@ -1,11 +1,4 @@
-26289521003146141
-24pin0.5mm
-24pin0.5mm
-
-
-0
-26
-24
+26289524208285704
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59282,13 +59275,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-GroveCon
-GROVE
-
-
-0
-4
-4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -96312,6 +96298,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SC18IS606PWJ
+SOP65P640X110-16N
+
+
+0
+16
+16
 SSD1306
 128x64OLED
 
@@ -98419,6 +98412,13 @@ Logo WEEE
 0
 0
 0
+TS-1088-AR02016
+SW_TS-1088-AR02016
+
+
+0
+2
+2
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
