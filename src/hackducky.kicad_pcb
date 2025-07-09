@@ -2943,7 +2943,7 @@
 			(size 1 1.43)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
-			(uuid "498b9dde-8376-4366-8c97-23d2001e3e73")
+			(uuid "9f0c6931-5f13-4c72-9181-6463713d5344")
 		)
 		(pad "26" smd rect
 			(at 4 0.5 180)
@@ -2959,7 +2959,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
-			(uuid "0851b98a-a08e-4c18-8df8-e0c2f5e90e28")
+			(uuid "0ee232ce-e61b-40e0-9133-140b75752d43")
 		)
 		(pad "A1" smd rect
 			(at 2.75 -0.5 90)
