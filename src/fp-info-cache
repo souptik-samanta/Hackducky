@@ -1,4 +1,4 @@
-26289524208285704
+26296509002678928
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92728,6 +92728,27 @@ Potentiometer vertical vishay
 0
 3
 3
+RASPBERRY_PI_PIC
+RASPBERRY_PI_PICO
+
+
+0
+40
+40
+RASPBERRY_PI_PIC
+TPS25947xx
+
+
+0
+14
+10
+RASPBERRY_PI_PIC
+USB-C-SMD_U261-121N-4BS2S
+
+
+0
+16
+14
 RASPBERRY_PI_PICO
 RASPBERRY_PI_PICO
 
@@ -92742,6 +92763,13 @@ TPS25947xx
 0
 14
 10
+RASPBERRY_PI_PICO
+USB-C-SMD_U261-121N-4BS2S
+
+
+0
+16
+14
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

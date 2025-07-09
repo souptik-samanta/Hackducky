@@ -13868,7 +13868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
+		(property "Footprint" "RASPBERRY_PI_PICO:USB-C-SMD_U261-121N-4BS2S"
 			(at 36.83 95.25 0)
 			(effects
 				(font
