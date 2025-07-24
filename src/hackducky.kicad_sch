@@ -3314,261 +3314,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:SK6812"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "SK6812"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "SK6812_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SK6812_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_RaspberryPi_and_Boards:RP2040"
 			(pin_names
 				(offset 1.016)
@@ -6639,10 +6384,6 @@
 		(uuid "fea2ca42-c2d9-4629-b530-6c4ec39f790e")
 	)
 	(no_connect
-		(at 170.18 182.88)
-		(uuid "03a112c6-293d-4366-ada8-8a48d28a634c")
-	)
-	(no_connect
 		(at 48.26 95.25)
 		(uuid "0b126789-7b30-4ce5-b6da-a98f38af46ae")
 	)
@@ -6677,10 +6418,6 @@
 	(no_connect
 		(at 48.26 105.41)
 		(uuid "8bd88b85-e956-45b8-8eb7-89849f6fdc14")
-	)
-	(no_connect
-		(at 118.11 173.99)
-		(uuid "97cdb2c2-3bda-4b8e-8116-8ff584d0f488")
 	)
 	(no_connect
 		(at 48.26 128.27)
@@ -6831,6 +6568,16 @@
 			(type default)
 		)
 		(uuid "2358d71b-3ed2-4ea8-93a0-29de6d6df399")
+	)
+	(wire
+		(pts
+			(xy 165.1 182.88) (xy 162.56 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a6f3e6-50c9-4d44-b809-48e302668f4a")
 	)
 	(wire
 		(pts
@@ -7314,6 +7061,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 152.4) (xy 125.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8802b18c-845c-4c8b-b3f4-e948af6872c7")
+	)
+	(wire
+		(pts
 			(xy 218.44 72.39) (xy 218.44 77.47)
 		)
 		(stroke
@@ -7654,13 +7411,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 173.99) (xy 102.87 173.99)
+			(xy 135.89 152.4) (xy 133.35 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ced8f961-5371-4ed3-af06-ec627012173b")
+		(uuid "ce69b63b-db3e-416c-8419-9c6581797f6d")
 	)
 	(wire
 		(pts
@@ -8936,6 +8693,28 @@
 			)
 		)
 	)
+	(global_label "GP25"
+		(shape input)
+		(at 124.46 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "908c88f0-c5a1-48ec-8684-70a3c5b4a6fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.5158 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO26_ADC0"
 		(shape input)
 		(at 162.56 240.03 180)
@@ -9345,28 +9124,6 @@
 		(uuid "c1dc9e5e-b40e-44bd-bb91-6e0d1ce1b400")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 326.3076 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GP25"
-		(shape input)
-		(at 101.6 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c309dd6a-b62b-429a-b906-580e9db42906")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.6558 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,82 +10105,6 @@
 			(project "Hackducky"
 				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812")
-		(at 110.49 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a390271-a6a3-4850-82da-f61047407542")
-		(property "Reference" "D1"
-			(at 120.65 167.5698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 120.65 170.1098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
-			(at 111.76 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 113.03 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 110.49 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22ed0ff8-5656-438a-95c3-b7bd76c10923")
-		)
-		(pin "4"
-			(uuid "c019ca0a-e3ae-4614-a1c7-35c1ac3a821d")
-		)
-		(pin "3"
-			(uuid "f4017ac0-73b6-4d78-86df-374307c7e2e1")
-		)
-		(pin "1"
-			(uuid "cb07de98-7ddd-4669-8590-3187cc63554e")
-		)
-		(instances
-			(project ""
-				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11651,6 +11332,83 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 158.75 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b349796-2e05-4f74-a6f8-fb29cd4cf3c8")
+		(property "Reference" "D2"
+			(at 160.3375 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 160.3375 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "533f3641-0255-4527-a37e-ed6fff6411c5")
+		)
+		(pin "2"
+			(uuid "201a4af7-e910-415e-bbe0-8db63f730816")
+		)
+		(instances
+			(project ""
+				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 71.12 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12623,6 +12381,76 @@
 			(project "hackducky"
 				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "471c26ec-db88-444b-a3c7-f08b1a34b76a")
+		(property "Reference" "R3"
+			(at 167.64 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 167.64 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.322 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "844015c3-436d-45e0-82e8-67f136fb721b")
+		)
+		(pin "2"
+			(uuid "e2b5895f-7749-444b-b659-c9388e042bdc")
+		)
+		(instances
+			(project ""
+				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15232,6 +15060,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 129.54 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cea854d-f6af-4180-bfa5-8a9b67a6b9cf")
+		(property "Reference" "D3"
+			(at 131.1275 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 131.1275 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b56948b9-d31a-4cc0-9ba6-a9a063520176")
+		)
+		(pin "2"
+			(uuid "f8e818de-8535-4805-9ca1-9e357e0dd1b6")
+		)
+		(instances
+			(project "hackducky"
+				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 209.55 67.31 0)
 		(unit 1)
@@ -15369,82 +15274,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812")
-		(at 162.56 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90e42278-740c-4a8d-8e62-b4aba4463a5b")
-		(property "Reference" "D4"
-			(at 172.72 176.4598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 172.72 178.9998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
-			(at 163.83 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 165.1 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 162.56 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1056c0b2-b00a-4300-8c89-1f2a508eeb28")
-		)
-		(pin "4"
-			(uuid "fc5b8fce-3925-443f-9bae-75c719daee31")
-		)
-		(pin "3"
-			(uuid "c6ced9e2-5b3d-4239-9ea3-72a9e7f55602")
-		)
-		(pin "1"
-			(uuid "13aa0154-a501-4eb1-b61d-d59a329194b5")
-		)
-		(instances
-			(project "hackducky"
-				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 29.21 90)
 		(unit 1)
@@ -15512,138 +15341,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b2d3026-66a9-403d-8a65-3712b2325d37")
-		(property "Reference" "#PWR07"
-			(at 110.49 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65ca5ebf-184d-496c-b635-8ce6e22cb23d")
-		)
-		(instances
-			(project "Hackducky"
-				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 110.49 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e86cb55-323b-48c7-be94-e6ba818d7c7f")
-		(property "Reference" "#PWR053"
-			(at 110.49 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 110.49 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 110.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16e63418-c7d9-49dd-aefe-7df5f7ae87bf")
-		)
-		(instances
-			(project "hackducky"
-				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 104.14 29.21 270)
 		(unit 1)
@@ -15669,7 +15366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 30.1752 0)
 			(effects
 				(font
@@ -15840,6 +15537,76 @@
 			(project "hackducky"
 				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9a1c710-0d63-40d7-b3c5-db0966bfd71c")
+		(property "Reference" "R5"
+			(at 138.43 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 138.43 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.112 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91b81eab-2456-4b9c-b1b0-e3f3608a8e4e")
+		)
+		(pin "2"
+			(uuid "95319e9e-5a03-4973-b5d3-4e381e2218ca")
+		)
+		(instances
+			(project "hackducky"
+				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -16368,7 +16135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 30.1752 0)
 			(effects
 				(font
@@ -16405,6 +16172,73 @@
 			(project ""
 				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1405527-d10a-40ca-815b-3ce2d5f30920")
+		(property "Reference" "#PWR010"
+			(at 135.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4b6227f-53fe-4110-aa8b-3133ae94a5bd")
+		)
+		(instances
+			(project "hackducky"
+				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16479,7 +16313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 190.5 0)
+		(at 165.1 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16488,7 +16322,7 @@
 		(fields_autoplaced yes)
 		(uuid "c419f2f7-6fe3-4307-b0a6-7aced9c2654f")
 		(property "Reference" "#PWR036"
-			(at 162.56 196.85 0)
+			(at 165.1 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16497,7 +16331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 195.58 0)
+			(at 165.1 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16506,7 +16340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 190.5 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16515,7 +16349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 190.5 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16524,7 +16358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 190.5 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17502,7 +17336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 42.8752 0)
 			(effects
 				(font
@@ -19213,72 +19047,6 @@
 			(project "hackducky"
 				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 162.56 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb9bd437-a9ae-4306-a2d9-9e1e6f317bc5")
-		(property "Reference" "#PWR050"
-			(at 162.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 162.56 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 162.56 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c89bfaca-effd-4bd6-a5b5-414e4abb7c56")
-		)
-		(instances
-			(project "hackducky"
-				(path "/ac5af1a0-623d-4b6c-a3c0-6f81efb9cbcc"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
