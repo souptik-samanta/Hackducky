@@ -14,6 +14,18 @@ Our board is powered by the reliable Raspberry Pi RP2040 microcontroller and inc
 
 HackDucky is designed for a wide range of users. Students can explore how USB HID devices work and learn about hardware security concepts. Makers can use it as a programmable USB automation tool for repetitive tasks. Security enthusiasts can experiment with BadUSB-style techniques in controlled environments, while developers can modify the firmware and hardware to create their own custom tools.
 
+# Features
+
+- RP2040 Microcontroller – Dual-core Arm Cortex-M0+ running at 133 MHz
+- 16 MB Flash Storage – Store firmware and large script libraries
+- USB-A + USB-C Ports – Flexible connection to different hosts
+- MicroSD Card Slot – External storage for payloads and logs
+- Led Indicator – Shows device status and script execution
+- HID Emulation – Can behave as a keyboard or other USB device
+- Script Execution – Run automation scripts automatically
+- Open Hardware Design – Fully customizable firmware and PCB
+- Compact Portable PCB – Designed for experimentation and hacking
+
 ## Getting Started
 
 Your HackDucky ships **without firmware preinstalled**, so you need to flash it before using the board.
@@ -61,6 +73,8 @@ Enojy ¯\_(ツ)_/¯
 
 ## Keystroke emulation
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/__JWsmGk8Tg?si=DQ9Afx3eyUvMSWlt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<video width="560" height="315" controls>
+  <source src="gallery/keystroke.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
