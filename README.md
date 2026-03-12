@@ -68,7 +68,7 @@ git clone https://github.com/hackclub/hackducky
 4. Your HackDucky is now ready to run scripts.
 
 ```bash
-Enojy ¯\_(ツ)_/¯
+Enjoy ¯\_(ツ)_/¯
 ```
 
 ## Keystroke emulation
@@ -78,3 +78,10 @@ Enojy ¯\_(ツ)_/¯
   Your browser does not support the video tag.
 </video>
 
+# Team
+- @Souptik Samanta
+- @Aarav Jham
+- @Some1
+
+# Contact
+Email Souptik at me@souptik.me(me[at]souptik[dot]me)
