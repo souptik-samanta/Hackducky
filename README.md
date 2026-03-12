@@ -78,6 +78,8 @@ Enjoy ¯\_(ツ)_/¯
   Your browser does not support the video tag.
 </video>
 
+[Watch on YouTube](https://www.youtube.com/watch?v=__JWsmGk8Tg)
+
 # Team
 - @Souptik Samanta
 - @Aarav Jham
