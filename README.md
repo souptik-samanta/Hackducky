@@ -16,13 +16,12 @@ HackDucky is a compact, fully open-source USB device based on the RP2040 microco
 ## Gallery
 
 <p align="center">
-  <img src="./img/sm_black_top (1).png" width="45%" />
-  <img src="./img/sm_black_bottom (1).png" width="45%" />
+
+  <img src="![alt text](image.png)" width="45%" />
 </p>
 
 <p align="center">
-  <img src="./gallery/render_top.png" width="45%" />
-  <img src="./gallery/render_bottom.png" width="45%" />
+  <img src="![alt text](image-1.png)" width="45%" />
 </p>
 
 ## Features
