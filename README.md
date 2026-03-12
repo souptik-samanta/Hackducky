@@ -71,7 +71,7 @@ git clone https://github.com/hackclub/hackducky
 Enjoy ¯\_(ツ)_/¯
 ```
 
-## Keystroke emulation
+## Keystroke emulation (wait for video)
 
 <video width="560" height="315" controls>
   <source src="gallery/keystroke.mp4" type="video/mp4">
